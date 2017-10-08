@@ -1,0 +1,549 @@
+/*Notes
+
+headings = {font-family: Playfair Display, Times New Roman, serif;}
+smaller text = {font-family: Source Sans Pro, Arial, sans-serif;}
+
+base background color: #EFEFEF
+red: #FF3B3F
+grey: #DEDBDB
+borders: #BFBFBF
+
+*/
+
+
+
+/*Universal*/
+
+html {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 20px;
+    background-color: #EFEFEF;
+}
+
+h2, h3, h4 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+
+/*Header*/
+
+header {
+    position:  fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    height: 3em;
+    background-color: #FF3B3F;
+    font-weight: 600;
+}
+
+header img {
+    height: 3rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+}
+
+nav {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    display: inline;
+}
+
+nav span:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: #DEDBDB;
+}
+
+nav span {
+    padding: 0.5rem;
+}
+
+#colmar-academy {
+    position: absolute;
+    top: 1rem;
+    left: 3.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#colmar-academy:hover {
+    cursor: pointer;
+}
+
+.mobile-header {
+    display: none;
+}
+
+
+/*First Section*/
+
+.first-section {
+    display: flex;
+    height: 25rem;
+    margin-top: 3rem;
+    background-color: #DEDBDB;
+    border-bottom: 0.10rem solid #BFBFBF;
+}
+
+.first-section-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    margin: 0 auto;
+}
+
+.first-section-image img {
+    width: 85%;
+    height: 90%;
+    max-width: 100%;   /*to keep image responsive*/
+}
+
+.first-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-left: 1rem;
+}
+
+.first-section-text h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    align-self: flex-start;
+}
+
+.first-section-text p {
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+
+#start-here {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 0.5rem 3.5rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background-color: #FF3B3F;
+}
+
+#start-here:hover {
+    cursor: pointer;
+}
+
+#start-here p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.mobile-first-section {
+    display: none;
+}
+
+
+
+/*Second Section*/
+
+.second-section {
+    display: flex;
+    flex: 1;
+}
+
+/*Second Section: Keep Practicing*/
+
+.practice {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex: 2;
+}
+
+.practice img {
+    width: 35rem;
+    max-width: 100%;    /*to keep image responsive*/
+}
+
+
+.practice h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.practice p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+/*Second Section: Orientation/Campus/Lecture*/
+
+.orientation-campus-lecture-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.orientation-campus-lecture-images img {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.paragraphs-second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.block-text h3, .block-text p {
+    padding-bottom: 0.5rem;
+}
+
+.paragraphs-second-section .block-text:last-child {
+    background-color: #FF3B3F;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#read-more {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#read-more:hover {
+    cursor: pointer;
+}
+
+
+.mobile-second-section {
+    display: none;
+}
+
+
+/*Third Section*/
+
+.third-section {
+    padding-bottom: 2rem;
+    background-color: #DEDBDB;
+    border-top: 0.10rem solid #BFBFBF;
+    border-bottom: 0.10rem solid #BFBFBF;
+}
+
+.third-section h2 {
+    padding: 2rem 1rem 0.5rem 1rem;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 7.5rem;
+}
+
+.course {
+    width: 15rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #FF3B3F;
+}
+
+.course img {
+    width: 100%;
+    padding-bottom: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.course-text {
+    flex-direction: column;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.course-text h3, .course-text p {
+    padding-bottom: 1rem;
+}
+
+
+#uppercase {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.mobile-third-section {
+    display: none;
+}
+
+
+
+/*Fourth Section (heading)*/
+
+#thesis-exhibit {
+    padding: 2rem 1rem 0.5rem 1rem;
+    text-align: center;
+}
+
+/*Fourth Section*/
+
+.fourth-section {
+    display: flex;
+    height: 35rem;
+}
+
+.fourth-section h2 {
+    padding: 2rem 1rem 0.5rem 1rem;
+    text-align: center;
+}
+
+/*Fourth Section: Video*/
+
+.video {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 1rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video h3 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+
+.video p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/*Fourth Section: Fisma/Now & Then*/
+
+.fisma-nowthen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    height: 20rem;
+}
+
+.fisma-nowthen img {
+    width: 7.5rem;
+    height:7.5rem;
+}
+
+.paragraphs-fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    height: 20rem;
+}
+
+.paragraphs-fourth-section .block-text:first-child {
+    background-color: #FF3B3F;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+.mobile-fourth-section {
+    display: none;
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background-color: #FF3B3F;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 1em;
+    left: 0.5rem;
+}
+
+.terms-privacy {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.terms-privacy span {
+    padding: 0.5rem;
+}
+
+.mobile-footer {
+    display: none;
+}
+
+
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 767px) {
+
+/*Header*/
+
+header {
+    display: none;
+}
+
+.mobile-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    background-color: #FF3B3F;
+}
+
+
+/*First Section*/
+
+.first-section {
+    display: none;
+}
+
+.mobile-first-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    background-color: #DEDBDB;
+    border-bottom: 0.10rem solid #BFBFBF;
+}
+
+.mobile-first-section img {
+    width: 100%;
+    height: 10rem;
+}
+
+.mobile-first-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.mobile-first-section-text h3, p {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#start-here {
+    display: inline-block;
+    align-self: center;
+    border-radius: 0.5rem;
+    background-color: #FF3B3F;
+    font-weight: bold;
+}
+
+
+/*Second Section*/
+
+.second-section {
+    display: none;
+}
+
+.mobile-second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.mobile-second-section img {
+    height: 7.5rem;
+    width: 10rem;
+    padding-bottom: 0.5rem;
+}
+
+.mobile-second-section h3 {
+    padding-bottom: 0.5rem;
+}
+
+#mobile-second-section-details {
+    padding-bottom: 0.5rem;
+}
+
+#read-more {
+    padding-bottom: 1rem;
+}
+
+
+/*Third Section*/
+
+.third-section {
+    display: none;
+}
+
+.mobile-third-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-top: 0.10rem solid #BFBFBF;
+    border-bottom: 0.10rem solid #BFBFBF;
+    background-color: #DEDBDB;
+}
+
+.mobile-third-section h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.mobile-third-section p {
+    padding: 1rem;
+    background-color: #FF3B3F;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    font-weight: bold;
+}
+
+/*Fourth Section*/
+
+.fourth-section {
+    display: none;
+}
+
+.mobile-fourth-section  {
+    display: flex;
+    height: 15rem;
+}
+
+.mobile-fourth-section video {
+    width: 100%;
+    height: auto;
+}
+
+/*Footer*/
+
+footer {
+    display: none;
+}
+
+.mobile-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    font-size: 0.75rem;
+    background-color: #FF3B3F;
+}
+
+}
