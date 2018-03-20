@@ -1,1 +1,1 @@
-Capstone project for Codecademy's "Build Websites from Scratch" Intensive Program
+Capstone project for Codecademy's "Build Websites from Scratch" program
