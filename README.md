@@ -1,4 +1,4 @@
-## Course Curriculum: Build Websites from Scratch
+#### Capstone project for Codecademy's `Build Websites From Scratch` program: https://brick182.github.io/colmaracademy. I was able to leverage the knowledge I learned towards building a professional website for a family member: www.johnbrickley.com. Below is the course curriculum:
 
 ### HTML
 
@@ -13,7 +13,6 @@ Set up your local development environment and begin writing well-structured cont
  - **Project: Two Sandals**
    - Create an HTML page for a hip, new restaurant
 
-
 ### CSS
 
 Learn best practices for using CSS to style your HTML. Begin using Chrome DevTools to sandbox and debug your code
@@ -26,7 +25,6 @@ Learn best practices for using CSS to style your HTML. Begin using Chrome DevToo
    - Create a travel site using your new-found knowledge of HTML and CSS
  - **Project: Dasmoto's Arts & Crafts**
    - Create a website for a new Arts & Crafts store using HTML and CSS
-
 
 ### Command Line + Git
 
@@ -42,7 +40,6 @@ Use the command line and Git to make drafts of your work. With GitHub Pages, dep
  - **Project: Excursion**
    - Create and deploy a landing page for a video recording app
 
-
 ### Display and Positioning
 
 Learning to size and position elements with CSS. Leverage Flexbox – a powerful new CSS positioning tool
@@ -54,7 +51,6 @@ Learning to size and position elements with CSS. Leverage Flexbox – a powerful
    - Create a fully-realized clone of a popular newspaper site from scratch
  - **Project: The Tea Cozy**
    - Create a professionally designed site for a new tea cafe from scratch
-
 
 ### Responsive Design and Browser Compatibility
 
@@ -68,7 +64,6 @@ Learn responsive techniques that make it easy to develop sites that look great o
  - **Project: Tortoiseshell Optics**
    - Create a fully responsive site for a new glasses site, Tortoiseshell Optics
 
-
 ### CSS Documentation and Debugging
 
 Learn how to use documentation and other online resources to solve unfamiliar problems and debug complicated CSS
@@ -76,7 +71,6 @@ Learn how to use documentation and other online resources to solve unfamiliar pr
  - MDN Documentation and Research
  - **Project: Fotomatic**
    - Debug a multi-page site for a new photography startup
-
 
 ### Design and UI Feedback
 
@@ -88,7 +82,6 @@ Analyze the decisions that make sites user friendly and fun to use. Learn advanc
  - CSS Color
  - Design - Color Palettes
 
-
 ### Capstone Project (Colmar Academy)
 
 You've been hired to design and implement a completely responsive single page site. Using supplied wireframes, make key design decisions
@@ -97,3 +90,5 @@ You've been hired to design and implement a completely responsive single page si
  - Font Awesome
  - Asset Management
  - Custom Domains
+ <br><br>
+ ![alt text](https://github.com/brick182/colmaracademy/blob/master/certificate.jpg)
