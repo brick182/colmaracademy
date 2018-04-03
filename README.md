@@ -6,7 +6,7 @@ Set up your local development environment and begin writing well-structured cont
 
  - Intro to HTML
  - HTML Tags
- - Settiing Up A Text Editor
+ - Setting Up A Text Editor
  - Creating Your First Website
  - **Project: Travel Blog**
    - Implement an HTML page for your new blog site
