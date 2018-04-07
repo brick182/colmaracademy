@@ -1,4 +1,4 @@
-#### Capstone project for Codecademy's `Build Websites From Scratch` program: https://mhbrickley.github.io/colmaracademy. I was able to leverage the knowledge I learned in the program towards building a professional website for a family member: www.johnbrickley.com. Below is the course curriculum:
+#### Capstone project for Codecademy's `Build Websites From Scratch` program: https://mhbrickley.github.io/colmar-academy. I was able to leverage the knowledge I learned in the program towards building a professional website for a family member: www.johnbrickley.com. Below is the course curriculum:
 
 ### HTML
 
