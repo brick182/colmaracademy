@@ -1,4 +1,4 @@
-#### Final project for Codecademy's `Build Websites From Scratch` program: https://mhbrickley.github.io/colmar-academy. Below is the program curriculum:
+#### Final project for Codecademy's `Build Websites From Scratch` program: https://mhbrickley.github.io/colmar_academy. Below is the program curriculum:
 
 ### HTML
 
